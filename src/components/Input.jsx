@@ -75,6 +75,7 @@ const Input = () => {
   };
   return (
     <div className="input">
+      <form>
       <input
         type="text"
         placeholder="Type something..."
@@ -94,6 +95,7 @@ const Input = () => {
         </label>
         <button onClick={handleSend}>Send</button>
       </div>
+      </form>
     </div>
   );
 };
